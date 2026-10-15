@@ -16,3 +16,6 @@ footer{color:#b5779a}dialog{background:#fff7fb;color:#4d2340}dialog::backdrop{ba
 .wins-banner{background:linear-gradient(100deg,#fbe0ef,#ffeef7);border:1px solid #f2c3dc;color:#8b2d61;border-radius:14px;padding:12px 14px;font-size:13px;font-weight:750;margin-bottom:18px;text-align:center}
 .celebrate{position:fixed;inset:0;pointer-events:none;z-index:99;overflow:hidden}.celebrate span{position:absolute;top:-24px;font-size:22px;animation:fall 1.5s ease-in forwards;left:var(--x);animation-delay:var(--delay)}@keyframes fall{0%{transform:translateY(-25px) rotate(0);opacity:0}15%{opacity:1}100%{transform:translateY(105vh) rotate(460deg);opacity:0}}
 @media(prefers-reduced-motion:reduce){.celebrate{display:none}}
+
+/* v3 session planner */
+.session-list{display:grid;gap:10px;margin:12px 0 16px}.session-item{display:flex;gap:10px;align-items:center;justify-content:space-between;padding:12px;border:1px solid #f1c8de;border-radius:12px;background:#fff9fc}.session-item strong{font-size:14px;line-height:1.35;display:block}.session-item .primary{flex-shrink:0}.text-button{background:transparent;border:0;color:#9d3b72;text-decoration:underline;margin-top:8px}.surprise h3{margin:0 0 8px}.surprise .secondary.full{margin-top:10px}@media(max-width:390px){.session-item{flex-wrap:wrap}.session-item .primary{margin-left:auto}}
