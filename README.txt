@@ -15,3 +15,7 @@ Settings > Download backup. Save the JSON somewhere safe (e.g. Google Drive). Re
 
 IMPORTANT
 GitHub Pages can take a few minutes to publish. The PWA must be opened via HTTPS to install and cache for offline use. Do not open index.html directly from a file manager and expect installation/offline support. The app stores progress locally in browser storage; clearing site data can erase it.
+
+V4 recurrence fix: Surprise Me excludes not-yet-due jobs even if early jobs are shown in the list. Monthly repeats after 28 days, weekly after 7 days, and as-needed jobs rest for 24 hours after completion. Existing local storage key and backup schema unchanged.
+
+V5: Optional early jobs includes only monthly (28 days) or longer recurrences. Due jobs are preferred in Surprise Me. Any early completion resets its countdown. No local storage key changes.
